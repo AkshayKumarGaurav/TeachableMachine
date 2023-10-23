@@ -1,0 +1,76 @@
+body {
+    text-align: center;
+    background-color: hsl(350, 54%, 54%);
+    font-family: Arial, sans-serif;
+}
+
+.music-player {
+    display: inline-block;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    text-align: center;
+    position: relative;
+    max-width: 400px;
+}
+
+.image-container {
+    margin: 20px 0;
+}
+
+img {
+    max-width: 100%;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+}
+
+.controls {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    align-items: center;
+    margin: 20px 0;
+}
+
+.icon-button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 24px;
+}
+
+.play::before {
+    content: "\u25B6"; /* Unicode play symbol */
+}
+
+.pause::before {
+    content: "\u2759\u2759"; /* Unicode pause symbol */
+}
+
+.timer {
+    background: #f0f0f0;
+    border-radius: 8px;
+    padding: 5px;
+    display: inline-block;
+}
+
+.timer #timer {
+    font-size: 18px;
+}
+#ab{
+    margin-top: 20px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    font-size: large;
+}
+#startButton{
+    margin-top: 10px;
+    font-weight: bold;
+    font-size: large;
+    background-color: #e82626;
+    
+    
+}
+
+
